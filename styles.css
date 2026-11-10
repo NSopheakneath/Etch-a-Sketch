@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid lightsalmon;
+    box-sizing: content-box;
+    margin:100px;
+    justify-self: center;
+}
+.squares{
+    box-sizing: border-box;
+    border: 1px solid lightpink;
+    flex: 0 0 calc(100% / 16);
+    height: calc(100% / 16);
+}
